@@ -1,0 +1,7 @@
+.gitignore
+.jshintrc
+.npmignore
+.project
+.travis.yml
+/.settings
+/test

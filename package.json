@@ -1,0 +1,35 @@
+{
+    "name": "ujs-jsonvalidate",
+    "description": "Validate a JSON file with JSON Schema",
+    "version": "0.1.0",
+    "author": {
+        "name": "Joe McIntyre",
+        "email": "j_h_mcintyre@yahoo.com",
+        "url": "http://joemcintyre.github.io"
+    },
+    "keywords": "bookujs json schema validation",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/usingjsonschema/ujs-jsonvalidate-nodejs"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https:github.com/usingjsonschema/ujs-jsonvalidate-nodejs/issues"
+    },
+    "main": "./lib/validate.js",
+    "bin": {
+        "validate": "./bin/validate",
+        "validaten": "./bin/validaten"
+    },
+    "dependencies": {
+        "ujs-safefile": "0.1.0",
+        "ujs-format": "0.1.0",
+        "tv4": "1.0.18"
+    },
+    "scripts": {
+        "test": "mocha ./test/test_validate.js"
+    },
+    "devDependencies": {
+        "mocha": ""
+    }
+}
