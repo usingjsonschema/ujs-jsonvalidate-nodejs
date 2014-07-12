@@ -1,15 +1,19 @@
 # JSON Validate Utility
 
-[![Build Status](https://secure.travis-ci.org/usingjsonschema/ujs-jsonvalidate-nodejs.png?branch=master)](http://travis-ci.org/usingjsonschema/ujs-jsonvalidate-nodejs)
-
 Part of the [Using JSON Schema](http://usingjsonschema.github.io) project.
 
-```jsonvalidate``` is a utility allowing JSON Schema, and references, to be 
-used to determine whether a file contains valid JSON content or not. Beyond
-just syntax checking, this allows structure and content validation as well.
+```jsonvalidate``` is a command line and library utility allowing JSON content
+to be validated using JSON Schema content from local or remote sources, and
+use of custom schema storage and URI access.
+
+The utility uses the [tv4](https://www.npmjs.org/package/tv4)
+library for the schema validation processing
+([GitHub repo](https://geraintluff.github.io/tv4)).
 
 For command line/script use, a console message is displayed and the process
 exits with 0 for success, 1 for failure.
+
+[![Build Status](https://secure.travis-ci.org/usingjsonschema/ujs-jsonvalidate-nodejs.png?branch=master)](http://travis-ci.org/usingjsonschema/ujs-jsonvalidate-nodejs)
 
 ## Command Line / Script Use
 To run the validation (command line or script), use the ```validate```
@@ -57,10 +61,6 @@ The program can be installed using ```npm```, with the command,
 
 Use of the ```-g``` parameter will install it in the global system repository,
 allowing command line / script use from any location on the system.
-
-## Project
-```jsonvalidate``` is part of the
-[Using JSON Schema](http://usingjsonschema.github.io) project.
 
 ## License
 MIT
