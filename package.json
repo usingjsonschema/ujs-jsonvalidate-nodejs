@@ -1,7 +1,7 @@
 {
     "name": "ujs-jsonvalidate",
     "description": "Validate a JSON file with JSON Schema",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "author": {
         "name": "Joe McIntyre",
         "email": "j_h_mcintyre@yahoo.com",
